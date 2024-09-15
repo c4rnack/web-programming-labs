@@ -1,0 +1,15 @@
+@import "./normalize.min.css";
+
+@import "./globals.css";
+
+@import "./header.css";
+
+@import "./hero.css";
+
+@import "./durable_materials.css";
+
+@import "./innovative.css";
+
+@import "./about_materials.css";
+
+@import "./footer.css";

@@ -1,0 +1,21 @@
+.innovative-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.innovative-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.innovative-text p {
+    max-width: 525px;
+    line-height: 24px;
+}
+
+@media screen and (max-width:555px) {
+    .innovative-text {
+        display: block;
+    }
+}
