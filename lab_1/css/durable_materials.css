@@ -1,0 +1,32 @@
+.durable__materials {
+    background: #fff;
+}
+
+.durable__materials-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.durable__materials-text {
+    max-width: 400px;
+    padding-top: 50px;
+}
+
+.durable__materials-text h2 {
+    color: #222F33;
+}
+
+.durable__materials-text p {
+    color: #646D70;
+    padding-bottom: 50px;
+    line-height: 26px;
+}
+
+.durable__materials-text button {
+    width: 90px;
+    height: 34px;
+    border-radius: 4px;
+    border: 1px solid#646D70;
+    background: #fff;
+    color: #606B74
+}

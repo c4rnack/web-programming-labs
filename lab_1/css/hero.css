@@ -1,0 +1,38 @@
+.hero {
+    background: url(../images/hero\ background\ image.png) lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: cover;
+}
+
+.hero__inner {
+    padding-top: 140px;
+    padding-bottom: 240px;
+
+    display:flex;
+    justify-content: space-between;
+}
+
+.hero__inner-text {
+    max-width: 600px;
+}
+
+.hero__subtitle {
+    font-size: 1.33rem;
+    font-weight: 500;
+    line-height: normal;
+    color: #fff;
+    opacity: 0.8;
+}
+
+.hero__title {
+    color:#fff;
+}
+
+.hero__inner-button {
+    max-width: 180px;
+    max-height: 80px;
+    padding-top: 50px;
+    padding-right: 100px;
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+}

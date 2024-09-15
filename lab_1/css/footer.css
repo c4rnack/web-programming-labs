@@ -1,0 +1,27 @@
+.footer {
+    margin: 0;
+    padding: 0;
+    background: #222F33;
+}
+
+.footer-elements {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-email {
+    opacity: 0.6;
+    margin: auto 0;
+}
+
+.footer-nav ul {
+    display: flex;
+}
+
+.footer-nav-item {
+    opacity: 0.6;
+    margin-left: 40px;
+}
+

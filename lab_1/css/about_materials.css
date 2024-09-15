@@ -1,0 +1,27 @@
+.about__materials {
+    background: #fff;
+}
+
+.about__materials-content {
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__materials-grid {
+    max-width: 525px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    column-gap: 60px;
+}
+
+.about__materials-text {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 22px;
+
+    color: #646D70;
+}
