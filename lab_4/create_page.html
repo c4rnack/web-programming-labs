@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="UTF-8">
+        <link href="css/styles.css" rel="stylesheet">
+        <title>Create hotel</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"></script>
+    </head>
+    <body>
+        <header class="header">
+            <nav>
+                <h2 class="logo">Hotels</h2>
+                <ul class="navigation">
+                    <li><a class="navigation-link" href="main_page.html">Main</a></li>
+                    <li><a class="navigation-current" href="create_page.html">Create Hotel</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="create__page-container">
+            <h1 class="create__page-header">Create Hotel</h1>
+            <div class="create__page-info__inputs">
+                <label>Hotel Name</label>
+                <input class="create__page-input" id="hotel_name_input" type="text">
+                <label>Number of rooms</label>
+                <input class="create__page-input" id="hotel_rooms_input" type="number" min="0" step="1">
+                <label>Amount of visitors per year</label>
+                <input class="create__page-input" id="hotel_visitors_input" type="number" min="0" step="1">
+                <div class="create__page-buttons">
+                    <button class="submit__button" id="submit_button">Submit</button>
+                    <button class="clear__all__button" id="clear_all_button">Clear all</button>
+                </div>
+            </div>
+        </div>
+        <div class="alert" id="alert">
+            <span class="alert-text" id="alert_text"><b>Oh, snap!</b></span>
+            <button class="close__button" id="close_alert"><img src="images/close.svg"></button>
+        </div>
+        <script type="module" src="js/create_page.js"></script>
+    </body>
+</html>
