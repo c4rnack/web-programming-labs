@@ -1,0 +1,32 @@
+[
+ {
+  "id": "00f8dc83-8cd8-41a7-b63e-6f8363df2400",
+  "name": "Hotel of freedom",
+  "rooms": 42,
+  "visitors": 42
+ },
+ {
+  "id": "2207a92d-1bf0-447a-8f9d-35b4a38c6828",
+  "name": "Luxury Hotel",
+  "rooms": 33,
+  "visitors": 857584
+ },
+ {
+  "id": "e0df3adb-d98c-454a-ac7e-a019e6716bfc",
+  "name": "Horrible Hotel",
+  "rooms": 123123,
+  "visitors": 324325
+ },
+ {
+  "id": "82da0476-1698-47f6-bf97-bb30dd4ee91a",
+  "name": "Dim sobak",
+  "rooms": 123123,
+  "visitors": 32
+ },
+ {
+  "id": "75c2f211-a3f6-4b82-b2a4-39e65692ea46",
+  "name": "weeeee",
+  "rooms": 32432,
+  "visitors": 5335
+ }
+]
