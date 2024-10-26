@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <meta charset="UTF-8">
+        <link href="styles.css" rel="stylesheet">
+        <title>Hotels</title>
+    </head>
+    <body>
+        <header class="header">
+            <h2 class="logo">Hotels</h2>
+            <div class="search__bar">
+                <input id="search_input" type="text">
+                <button id="search_button" class="search__button">Search</button>
+                <button id="cancel_button" class="cancel__button">Cancel</button>
+            </div>
+        </header>
+        <div class="container">
+            <section class="manage__hotels">
+                <h2>Manage hotels</h2>
+                <div class="manage__hotels-sort">
+                    <span>Sort by the amount of visitors per year:</span>
+                    <input id="sort_checkbox" type="checkbox">
+                </div>
+                <div class="manage__hotels-count">
+                    <span>Count total amount of visitors per year:</span>
+                    <button class="count__button" id="count_button">Count total</button>
+                    <div class="count__output">
+                        <span>Amount of visitors:</span>
+                        <span class="count__output-number" id="count_output">000</span>
+                    </div>
+                </div>
+            </section>
+            <section id="hotel_section" class="hotel__section">
+            </section>
+        </div>
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
