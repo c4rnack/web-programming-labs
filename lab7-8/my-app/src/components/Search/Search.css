@@ -1,0 +1,14 @@
+.search-input {
+    padding: 10px;
+
+    width: 200px;
+
+    border: solid lightgray;
+    border-radius: 10px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.search-input:hover {
+    border: solid rgb(165, 165, 165);
+}
