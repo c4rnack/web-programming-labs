@@ -1,0 +1,16 @@
+.number-input {
+    margin-right: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 8px; padding-bottom: 8px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 14px;
+    border:solid lightgray;
+    color: black;
+    transition: all ease-in-out 0.1s;
+}
+
+.number-input:hover {
+    border: solid rgb(165, 165, 165);
+}
