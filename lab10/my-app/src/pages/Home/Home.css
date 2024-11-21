@@ -1,0 +1,53 @@
+.home {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.hero {
+    padding-left: 50px; padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.hero-image {
+    width: 40%;
+    border-radius: 20px;
+}
+
+.hero-text {
+    width: 50%;
+    text-align: left;
+}
+
+.hero-text p {
+    padding-top: 20px;
+}
+
+.hotel__grid {
+    padding-left: 50px; padding-right: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+}
+
+.viewmore__button {
+    padding-left: 30px; padding-right: 30px;
+    padding-top: 10px; padding-bottom: 10px;
+    margin-top: 50px;
+
+    font-size: 17px;
+    border: none;
+    border-radius: 10px;
+
+    background-color: purple;
+    color: white;
+
+    transition: 0.1s all ease-in-out;
+}
+
+.viewmore__button:hover {
+    background-color: rgb(101, 0, 101);
+}

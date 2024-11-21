@@ -1,0 +1,15 @@
+.hotel__preview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotel__preview-image {
+    width:80%;
+    border-radius: 20px;
+}
+
+.hotel__preview-text {
+    width: 80%;
+    padding-top: 15px;
+}

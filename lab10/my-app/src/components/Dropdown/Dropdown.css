@@ -1,0 +1,22 @@
+.dropdown {
+    margin-right: 10px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px; padding-bottom: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    background-color: lightgray;
+    color: black;
+    transition: all ease-in-out 0.1s;
+}
+
+.dropdown:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+.dropdown:focus {
+    background-color: lightgray;
+}
+

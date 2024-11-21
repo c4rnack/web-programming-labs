@@ -1,0 +1,29 @@
+.catalog {
+    padding-top: 20px;
+}
+
+.filters {
+    display: flex;
+}
+
+.search-bar {
+    padding-left: 50px; padding-right: 50px;
+    padding-bottom: 20px;
+    border-bottom: solid 3px purple;
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-grid {
+    display: grid;
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 50px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 75px;
+}
+
+.filters-dropdown label{
+    padding-right: 10px;
+}
