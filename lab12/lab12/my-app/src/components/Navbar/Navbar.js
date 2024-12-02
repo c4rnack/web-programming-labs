@@ -12,6 +12,7 @@ function Navbar() {
     localStorage.removeItem('user');
     navigate('/login');
     dispatch(setCart([]));
+    window.location.reload();
   }
   return (
     <div className='navbar'>
