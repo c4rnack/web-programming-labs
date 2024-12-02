@@ -1,0 +1,78 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login__box {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    padding-top: 50px; padding-bottom: 50px;
+    padding-left: 200px; padding-right: 200px;
+    border-radius: 30px;
+    border: 3px solid purple;
+}
+
+.login h2 {
+    font-size: 30px;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.login__form .error {
+    width: 350px;
+}
+
+.login__form input {
+    padding: 10px;
+    margin-bottom: 15px;
+
+    width: 350px;
+
+    border: solid lightgray;
+    border-radius: 10px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+.login-register__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-register__link * {
+    margin: 5px;
+}
+
+.login-register__link a {
+    color: purple;
+    transition: all ease-in-out 0.1s;
+}
+
+.login-register__link a:hover {
+    color: rgb(101, 0, 101);
+}
+
+.login__button {
+    padding-left: 40px; padding-right: 40px;
+    padding-top: 15px; padding-bottom: 15px;
+    border-radius: 10px; border-color: transparent;
+    font-size: 16px;
+    background-color: purple;
+    color: white;
+    transition: all ease-in-out 0.1s;
+}
+
+.login__button:hover, .login__button:active {
+    background-color: rgb(101, 0, 101);
+}

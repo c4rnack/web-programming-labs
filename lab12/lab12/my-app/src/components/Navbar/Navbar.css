@@ -1,0 +1,94 @@
+nav {
+    width: 40%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    width: 100%;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-bottom: 3px solid purple;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    width: 50px;
+    fill: purple;
+}
+
+.link {
+    padding-left: 30px; padding-right: 30px;
+    padding-top: 10px; padding-bottom: 10px;
+    border-radius: 10px;
+    background-color: lightgray;
+    color: black;
+    transition: all ease-in-out 0.1s;
+}
+
+.link:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+.active {
+    color: white;
+    background-color: purple;
+}
+
+.active:hover{
+    background-color: rgb(101, 0, 101);
+}
+
+.user__panel {
+    display: flex;
+    align-items: center;
+}
+
+.user__info {
+    text-align: left;
+}
+
+.user__info-username {
+    font-size: 16px;
+}
+
+.user__info-email {
+    font-size: 10px;
+}
+
+.log__out-button {
+    padding-left: 20px; padding-right: 20px;
+    padding-top: 7px; padding-bottom: 7px;
+    border-radius: 10px;
+
+    margin-left: 20px;
+    font-size: 14px;
+
+    border:none;
+
+    background-color: purple;
+    color: white;
+    transition: all ease-in-out 0.1s;
+}
+
+.log__out-button:hover {
+    cursor: pointer;
+    background-color:rgb(101, 0, 101);
+}

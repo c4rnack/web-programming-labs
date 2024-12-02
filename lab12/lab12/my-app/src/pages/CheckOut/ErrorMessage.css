@@ -1,0 +1,16 @@
+.error {
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    background-color: #f2dede;
+    border-radius: 20px;
+}
+
+.error ul {
+    display: inline;
+}
+
+.error li {
+    color: #ad4c4a;
+    margin: 5px;
+}
