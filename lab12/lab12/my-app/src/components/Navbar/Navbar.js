@@ -11,6 +11,7 @@ function Navbar() {
   const handleLogOut = () => {
     localStorage.removeItem('user');
     navigate('/login');
+    dispatch(setCart([]));
   }
   return (
     <div className='navbar'>
