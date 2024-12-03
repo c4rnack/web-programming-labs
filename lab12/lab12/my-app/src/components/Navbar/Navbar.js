@@ -2,11 +2,14 @@ import React from 'react';
 import icon from '../../assets/icon.svg';
 import {NavLink, useNavigate} from 'react-router-dom';
 import './Navbar.css';
+import { useDispatch } from 'react-redux';
+import { setCart } from '../../Redux/CartSlice';
 
 function Navbar() {
   const user = JSON.parse(localStorage.getItem('user'));
 
   const navigate = useNavigate();
+  const dispatch = useDispatch();
 
   const handleLogOut = () => {
     localStorage.removeItem('user');
